@@ -36,13 +36,13 @@
     "ios",
     "android"
   ],
-  "repository": "https://www.githubhttps://github.com/t0m0120/react-native-responsive-checker",
+  "repository": "https://github.com/t0m0120/react-native-responsive-checker",
   "author": "t0m0120 <t0m0120dev@gmail.com> (https://www.winterer.app)",
   "license": "MIT",
   "bugs": {
-    "url": "https://www.githubhttps://github.com/t0m0120/react-native-responsive-checker/issues"
+    "url": "https://github.com/t0m0120/react-native-responsive-checker/issues"
   },
-  "homepage": "https://www.githubhttps://github.com/t0m0120/react-native-responsive-checker#readme",
+  "homepage": "https://github.com/t0m0120/react-native-responsive-checker#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
     "access": "public"
