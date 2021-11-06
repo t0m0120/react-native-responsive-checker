@@ -1,19 +1,16 @@
 import * as React from 'react';
 
 import { StyleSheet, View, Text } from 'react-native';
-import { multiply } from 'react-native-responsive-checker';
+import { ResponsiveCheckView } from 'react-native-responsive-checker';
 
 export default function App() {
-  const [result, setResult] = React.useState<number | undefined>();
-
-  React.useEffect(() => {
-    multiply(3, 7).then(setResult);
-  }, []);
-
   return (
-    <View style={styles.container}>
-      <Text>Result: {result}</Text>
-    </View>
+    <ResponsiveCheckView>
+      <View style={styles.container}>
+        <Text>TestScreen</Text>
+        <Text>Insert the Screen you want to check.</Text>
+      </View>
+    </ResponsiveCheckView>
   );
 }
 
@@ -22,6 +19,7 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
+    backgroundColor: '#ccc'
   },
   box: {
     width: 60,
