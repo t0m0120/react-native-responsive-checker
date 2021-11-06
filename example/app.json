@@ -1,0 +1,22 @@
+{
+  "name": "react-native-responsive-checker-example",
+  "displayName": "ResponsiveChecker Example",
+  "expo": {
+    "name": "react-native-responsive-checker-example",
+    "slug": "react-native-responsive-checker-example",
+    "description": "Example app for react-native-responsive-checker",
+    "privacy": "public",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
