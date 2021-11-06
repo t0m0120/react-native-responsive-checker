@@ -1,21 +1,28 @@
 # react-native-responsive-checker
 
-This is a library to check responsive design using an iPad simulator.
+This is a library to check responsive design.
 
 ## Installation
 
 ```sh
 npm install react-native-responsive-checker
+or
+yarn add react-native-responsive-checker
 ```
 
 ## Usage
 
+Build on a simulator or actual machine with a large screen size.
+iPad 12.9 is recommended
+
 ```js
-import { multiply } from "react-native-responsive-checker";
+import { ResponsiveCheckView } from "react-native-responsive-checker";
 
-// ...
+<ResponsiveCheckView>
+    // Insert the View you want to check here.
+    <App />
+</ResponsiveCheckView>
 
-const result = await multiply(3, 7);
 ```
 
 ## Contributing
