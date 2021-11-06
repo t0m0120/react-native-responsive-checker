@@ -25,6 +25,10 @@ import { ResponsiveCheckView } from "react-native-responsive-checker";
 
 ```
 
+
+https://user-images.githubusercontent.com/34805701/140617531-68271250-c592-44b0-abbb-3c5057ecd24f.mp4
+
+
 ## Contributing
 
 See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
