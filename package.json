@@ -44,7 +44,8 @@
   },
   "homepage": "https://www.githubhttps://github.com/t0m0120/react-native-responsive-checker#readme",
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^11.0.0",
