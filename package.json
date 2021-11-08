@@ -1,5 +1,5 @@
 {
-  "name": "@t0m0120/react-native-responsive-checker",
+  "name": "react-native-responsive-checker",
   "version": "0.1.0",
   "description": "This is a library to check responsive design using an iPad simulator.",
   "main": "lib/commonjs/index",
